@@ -31,8 +31,36 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 Getting Started
 ---------------
 
+$ git clone git@github.com:alyssondaniel/test_app.git
+
+$ cd test_app
+
+$ bundle install
+
+$ rails s
+
 Documentation and Support
 -------------------------
+
+	# app/controller/serconprev_controller.rb
+
+    gas_station: processa cada linha do arquivo input.txt
+
+    index: percorre as linhas do arquivo input.txt e mostra o resultado
+
+    prepare: retira caracteres desnecessários
+
+    get_quatity: retorna a quatidade de postos
+
+    get_values: retorna quantidade de gás em galões naquele posto de gasolina e a quantidade de galões de gás necessário para chegar ao seguinte posto de gasolina
+
+    get_parts: separa a quantidade de gás em galões naquele posto de gasolina e quantidade de galões de gás necessário para chegar ao seguinte posto 
+
+    get_amount_gas: retorna a quantidade de gás em galões naquele posto de gasolina
+
+    get_gas_needed: retorna a quantidade de galões de gás necessário para chegar ao seguinte posto
+
+	# public/input.txt - Arquivo contento uma string por linha
 
 Issues
 -------------

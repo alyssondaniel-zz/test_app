@@ -39,6 +39,8 @@ $ bundle install
 
 $ rails s
 
+[Demo online](http://fathomless-retreat-3626.herokuapp.com/)
+
 Documentation and Support
 -------------------------
 
